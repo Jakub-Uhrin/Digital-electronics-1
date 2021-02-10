@@ -1,7 +1,7 @@
 # Digital-electronics-1
 ## DPC-DE1  2021
-_předmět digitální elektrotechnika_
 ### 01 Gates
-![Screenshot](něco.png)
+1. Github link: https://github.com/Jakub-Uhrin/Digital-electronics-1
+![Screenshot](signals.png)
 
 

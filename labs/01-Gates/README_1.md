@@ -63,7 +63,7 @@ end architecture dataflow;
 
 Screenshot signálů:
 
-![Screenshot](images/signals.png)
+![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/signals.png "Verification of De Morgan's laws of function")
 
 EDA Playgrounds link: https://www.edaplayground.com/x/rvjS
 

@@ -63,7 +63,7 @@ end architecture dataflow;
 
 Screenshot signálů:
 
-![Screenshot](signals.png)
+![Screenshot](images/signals.png)
 
 EDA Playgrounds link: https://www.edaplayground.com/x/rvjS
 

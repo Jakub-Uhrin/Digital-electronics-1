@@ -119,8 +119,8 @@ end architecture dataflow;
 
 Screenshoty signálů:
 
-![Screenshot](images/signály_x.png)
+![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/sign%C3%A1ly_x.png "basic Boolean postulates")
 
-![Screenshot](images/signály_dis.png)
+![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/sign%C3%A1ly_dis.png "Distributive laws")
 
-odkaz na VLD Playground: https://www.edaplayground.com/x/YXyk
+VLD Playground link: https://www.edaplayground.com/x/YXyk

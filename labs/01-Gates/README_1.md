@@ -35,9 +35,8 @@ design:
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
-------------------------------------------------------------------------
 -- Entity declaration 
-------------------------------------------------------------------------
+
 entity gates is
     port(
         a_i    : in  std_logic;         -- Data input
@@ -51,9 +50,8 @@ entity gates is
    );
 end entity gates;
 
-------------------------------------------------------------------------
 -- Architecture body for basic gates
-------------------------------------------------------------------------
+
 architecture dataflow of gates is
 begin
     f_o     <= ((not b_i) and a_i) or ((not c_i) and (not b_i));

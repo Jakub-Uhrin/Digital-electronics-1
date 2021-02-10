@@ -4,6 +4,10 @@ Jakub Uhrin 221457
 ### 01 Gates
 
 1. Github link: https://github.com/Jakub-Uhrin/Digital-electronics-1
+
+2. 
+
+Screenshot signálů:
 ![Screenshot](images/signals.png)
 
-
+EDA link: https://www.edaplayground.com/x/rvjS

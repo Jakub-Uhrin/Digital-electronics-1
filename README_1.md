@@ -6,6 +6,7 @@ Jakub Uhrin 221457
 1. Github link: https://github.com/Jakub-Uhrin/Digital-electronics-1
 
 2. VLD Playground kód:
+
 design:
 ```
 ------------------------------------------------------------------------
@@ -42,7 +43,91 @@ begin
 
 end architecture dataflow;
 ```
+
+testbench:
+```
+------------------------------------------------------------
+--Verification of De Morgan's laws of function
+------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+------------------------------------------------------------
+-- Entity declaration for testbench
+------------------------------------------------------------
+entity tb_gates is
+ -- Entity of testbench is always empty
+end entity tb_gates;
+
+------------------------------------------------------------
+-- Architecture body for testbench
+------------------------------------------------------------
+architecture testbench of tb_gates is
+
+    -- Local signals
+    signal s_a     : std_logic;
+    signal s_b     : std_logic;
+    signal s_c     : std_logic;
+    signal s_f     : std_logic;
+    signal s_fnand : std_logic;
+    signal s_fnor  : std_logic;
+
+begin
+    
+    uut_gates : entity work.gates
+        port map(
+            a_i     => s_a,
+            b_i     => s_b,
+            c_i     => s_c,
+            f_o     => s_f,
+            fnand_o => s_fnand,
+            fnor_o  => s_fnor
+        );
+
+    --------------------------------------------------------------------
+    -- Data generation process
+    --------------------------------------------------------------------
+    p_stimulus : process
+    begin
+        s_b <= '0';             
+        s_a <= '0';
+        s_c <= '0';
+        wait for 100 ns;
+        s_b <= '1';             
+        s_a <= '0';
+        s_c <= '0';
+        wait for 100 ns;
+        s_b <= '0';             
+        s_a <= '1';
+        s_c <= '0';
+        wait for 100 ns;
+        s_b <= '0';             
+        s_a <= '0';
+        s_c <= '1';
+        wait for 100 ns;
+        s_b <= '1';             
+        s_a <= '1';
+        s_c <= '0';
+        wait for 100 ns;
+        s_b <= '0';             
+        s_a <= '1';
+        s_c <= '1';
+        wait for 100 ns;
+        s_b <= '1';             
+        s_a <= '0';
+        s_c <= '1';
+        wait for 100 ns;
+        s_b <= '1';             
+        s_a <= '1';
+        s_c <= '1';
+        wait for 100 ns;
+        wait;                  
+    end process p_stimulus;
+
+end architecture testbench;
+```
 Screenshot signálů:
 ![Screenshot](images/signals.png)
 
-EDA link: https://www.edaplayground.com/x/rvjS
+EDA Playgrounds link: https://www.edaplayground.com/x/rvjS

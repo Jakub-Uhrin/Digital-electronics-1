@@ -22,15 +22,11 @@ Github link: https://github.com/Jakub-Uhrin/Digital-electronics-1
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-
-
 VLD Playground kód:
 
 design:
 ```
-------------------------------------------------------------------------
 --Verification of De Morgan's laws of function
-------------------------------------------------------------------------
 
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
@@ -45,8 +41,7 @@ entity gates is
        
         f_o    : out std_logic; 
         fnand_o: out std_logic;
-        fnor_o : out std_logic
-       
+        fnor_o : out std_logic   
    );
 end entity gates;
 
@@ -74,16 +69,13 @@ VLD Playground kód:
 
 design:
 ```
-------------------------------------------------------------------------
 --Verification of De Morgan's laws and Verification of Distributive laws
-------------------------------------------------------------------------
 
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
-------------------------------------------------------------------------
 -- Entity declaration for basic gates
-------------------------------------------------------------------------
+
 entity gates is
     port(
         x_i   : in  std_logic;         -- Data input
@@ -101,9 +93,8 @@ entity gates is
     );
 end entity gates;
 
-------------------------------------------------------------------------
 -- Architecture body 
-------------------------------------------------------------------------
+
 architecture dataflow of gates is
 begin
     f11_o   <= x_i and (not x_i);

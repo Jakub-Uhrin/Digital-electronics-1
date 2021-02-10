@@ -7,7 +7,7 @@ Jakub Uhrin 221457
 
 2. VLD Playground kód:
 design:
-
+`<
 *------------------------------------------------------------------------
 *--Verification of De Morgan's laws of function
 *------------------------------------------------------------------------
@@ -41,7 +41,7 @@ design:
 *   fnor_o  <= (b_i nor (not a_i)) or ( c_i nor b_i);
 *
 *end architecture dataflow;
-
+>`
 Screenshot signálů:
 ![Screenshot](images/signals.png)
 

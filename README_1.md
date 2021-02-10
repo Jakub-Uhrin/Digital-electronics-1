@@ -5,7 +5,21 @@ Jakub Uhrin 221457
 
 1. Github link: https://github.com/Jakub-Uhrin/Digital-electronics-1
 
-2. VLD Playground kód:
+2. 
+
+| c | b | a | f |
+|---|---|---|---|
+| 0 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 |
+
+
+
+VLD Playground kód:
 
 design:
 ```

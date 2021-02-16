@@ -22,7 +22,7 @@ Github link: https://github.com/Jakub-Uhrin/Digital-electronics-1
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-VLD Playground kód:
+EDA Playground kód:
 
 design:
 ```
@@ -65,7 +65,7 @@ EDA Playgrounds link: https://www.edaplayground.com/x/rvjS
 
 #### 3.
 
-VLD Playground kód:
+EDA Playground kód:
 
 design:
 ```
@@ -115,4 +115,4 @@ Screenshoty signálů:
 
 ![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/sign%C3%A1ly_dis.png "Distributive laws")
 
-VLD Playground link: https://www.edaplayground.com/x/YXyk
+EDA Playground link: https://www.edaplayground.com/x/YXyk

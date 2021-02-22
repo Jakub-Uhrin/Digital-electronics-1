@@ -20,8 +20,8 @@
 |15|11|11|0|1|0|
 
 ## 2.
-             ![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBeqA.png "VMapBeqA")
+![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBeqA.png "VMapBeqA")
              
-             ![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBlessA.png "VMapBlessA")
+![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBlessA.png "VMapBlessA")
              
-             ![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBgrA.png "VMapBgrA")
+![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBgrA.png "VMapBgrA")

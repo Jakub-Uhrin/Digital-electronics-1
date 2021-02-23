@@ -25,3 +25,9 @@
 ![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBlessA.png "VMapBlessA")
              
 ![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBgrA.png "VMapBgrA")
+
+\begin{align*}
+   \[greater_{SoP}^{min}=\] = (\overline{b1}\ . \overline{b0}\ . \overline{a1} . \overline{a0})\\
+    f(c,b,a)_{\textup{NAND}} =&\\
+    f(c,b,a)_{\textup{NOR}} =&\\
+\end{align*}

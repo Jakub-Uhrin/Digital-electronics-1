@@ -26,8 +26,4 @@
              
 ![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBgrA.png "VMapBgrA")
 
-\begin{align*}
-   greater_{SoP}^{min}=&~ (\overline{b0} . \overline{b1}.\overline{a1}.\overline{a0}) + (\overline{b1} . b1.\overline{a1}.a1)
-    f(c,b,a)_{\textup{NAND}} =&\\
-    f(c,b,a)_{\textup{NOR}} =&\\
-\end{align*}
+![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapEQ.png "Map Equations")

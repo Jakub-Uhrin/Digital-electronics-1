@@ -26,4 +26,4 @@
              
 ![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapBgrA.png "VMapBgrA")
 
-![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/MapEQ.png "Map Equations")
+![alt text](https://github.com/Jakub-Uhrin/Digital-electronics-1/blob/main/images/mapsEQ.png "Map Equations")

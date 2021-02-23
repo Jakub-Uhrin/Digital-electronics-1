@@ -1165,7 +1165,7 @@ begin
     end process p_stimulus;
 
 end architecture testbench;
-```
+
 [2021-02-23 14:13:42 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_2bit && ghdl -r  tb_comparator_2bit   
 analyze design.vhd
 analyze testbench.vhd
@@ -1174,3 +1174,6 @@ testbench.vhd:51:9:@0ms:(report note): Stimulus process started
 testbench.vhd:56:16:@100ns:(assertion error): Test failed for input combination: 0000, 0000
 testbench.vhd:1082:9:@25600ns:(report note): Stimulus process finished
 Done
+```
+
+EDA Playground link: https://www.edaplayground.com/x/J2fc

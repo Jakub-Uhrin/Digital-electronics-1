@@ -32,7 +32,7 @@
 
 EDA Playground link: https://www.edaplayground.com/playgrounds/user/243148
 ## 3.
-```
+```vhdl
 ------------------------------------------------------------------------
 --
 -- Example of 4-bit binary comparator using the when/else assignment.
